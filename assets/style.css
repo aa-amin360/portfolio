@@ -1,5 +1,4 @@
 :root {
-  /* Natural White & Botanical Green Palette */
   --bg: #f8faf8;
   --bg-subtle: #f0f4f1;
   --surface: #ffffff;
@@ -38,6 +37,12 @@ body {
   line-height: 1.6;
   overflow-x: clip;
   width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Scroll Progress Bar */

@@ -10,7 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  
+  <!-- Base reset to prevent image blowout even if CSS is slow -->
+  <style>
+    html, body { margin: 0; padding: 0; background: #f8faf8; color: #141f19; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    img { max-width: 100%; height: auto; display: block; }
+  </style>
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
   <!-- Scroll Progress Indicator -->
@@ -26,7 +32,7 @@
   <header class="header">
     <div class="container header-content">
       <a href="#hero" class="brand">
-        <img src="assets/images/Logo.jpg" alt="Logo" class="brand-img" width="36" height="36">
+        <img src="./assets/images/Logo.jpg" alt="Logo" class="brand-img" width="36" height="36">
         <div class="brand-text">
           <span class="brand-name">Abdullah Al Amin</span>
           <span class="brand-role">Product &amp; AI Engineer</span>
@@ -75,15 +81,15 @@
           </div>
           <div class="stats-row">
             <div class="stat-item">
-              <span class="stat-num counter" data-target="100" data-suffix="+">0</span>
+              <span class="stat-num counter" data-target="100" data-suffix="+">100+</span>
               <span class="stat-lbl">Projects Delivered</span>
             </div>
             <div class="stat-item">
-              <span class="stat-num counter" data-target="25" data-prefix="$" data-suffix="k+">0</span>
+              <span class="stat-num counter" data-target="25" data-prefix="$" data-suffix="k+">$25k+</span>
               <span class="stat-lbl">Sales Executed</span>
             </div>
             <div class="stat-item">
-              <span class="stat-num counter" data-target="100" data-suffix="%">0</span>
+              <span class="stat-num counter" data-target="100" data-suffix="%">100%</span>
               <span class="stat-lbl">Client Focus</span>
             </div>
           </div>
@@ -92,7 +98,7 @@
         <div class="hero-profile reveal">
           <div class="profile-card spotlight-card tilt-card">
             <div class="profile-img-wrap">
-              <img src="assets/images/Profile.jpg" alt="Abdullah Al Amin" class="profile-img">
+              <img src="./assets/images/Profile.jpg" alt="Abdullah Al Amin" class="profile-img">
             </div>
             <div class="profile-meta">
               <div>
@@ -139,7 +145,7 @@
           <!-- Project 1 -->
           <div class="project-card spotlight-card tilt-card reveal">
             <div class="project-img-box">
-              <img src="assets/images/img-2.jpg" alt="SaaS Web Platform" loading="lazy">
+              <img src="./assets/images/img-2.jpg" alt="SaaS Web Platform" loading="lazy">
             </div>
             <div class="project-info">
               <div class="project-badges">
@@ -154,7 +160,7 @@
           <!-- Project 2 -->
           <div class="project-card spotlight-card tilt-card reveal">
             <div class="project-img-box">
-              <img src="assets/images/img-1.jpg" alt="Mobile Application" loading="lazy">
+              <img src="./assets/images/img-1.jpg" alt="Mobile Application" loading="lazy">
             </div>
             <div class="project-info">
               <div class="project-badges">
@@ -310,6 +316,6 @@
     </div>
   </footer>
 
-  <script src="assets/script.js"></script>
+  <script src="./assets/script.js"></script>
 </body>
 </html>
