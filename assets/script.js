@@ -11,4 +11,8 @@
   if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { items.forEach((item) => item.classList.add('visible')); return; }
   const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } }), { threshold: 0.12 });
   items.forEach((item) => observer.observe(item));
+  // Safety net: full-page screenshot/PDF/print tools often render the page
+  // without a real scroll, so IntersectionObserver never fires for
+  // below-the-fold sections. Force everything visible shortly after load.
+  window.addEventListener('load', () => setTimeout(() => { items.forEach((item) => item.classList.add('visible')); observer.disconnect(); }, 1200));
 })();

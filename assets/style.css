@@ -207,3 +207,8 @@ footer{border-top:1px solid var(--line-soft);padding-block:25px 40px;display:fle
   .reveal{opacity:1;transform:none;transition:none}
   .button,.work-card,.work-image img,.tech-card,.feature-card{transition:none}
 }
+
+@media print{
+  .reveal{opacity:1!important;transform:none!important}
+  .header-fill,.page-glow,.glow-three{display:none}
+}
