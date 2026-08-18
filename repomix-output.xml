@@ -1,0 +1,421 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+assets/
+  images/
+    img-1.jpg
+    img-2.jpg
+    Logo.jpg
+    Profile.jpg
+  script.js
+  style.css
+.gitignore
+index.html
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path=".gitignore">
+*.bak
+Thumbs.db
+.DS_Store
+</file>
+
+<file path="index.html">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Abdullah Al Amin — SaaS, web, mobile, CRM/ERP and AI developer.">
+  <meta name="theme-color" content="#05060c">
+  <title>Abdullah Al Amin — Developer & Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="header-fill"></div>
+  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div><div class="glow-three"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Abdullah Al Amin home"><img src="assets/images/Logo.jpg" alt="" width="42" height="42"><span>Abdullah <b>Al Amin</b></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Open navigation</span><i></i><i></i></button>
+    <nav id="site-nav" aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Capabilities</a><a href="#experience">Experience</a><a href="#work">Work</a><a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main-content">
+    <section id="top" class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Available for thoughtful collaborations</p>
+        <h1>Turning ambitious ideas into <em>scalable digital products.</em></h1>
+        <p class="intro">I'm Abdullah Al Amin — a SaaS, web, mobile, CRM/ERP, AI and automation developer helping businesses build high-performance products that work in the real world.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↓</span></a><a class="text-link" href="https://www.linkedin.com/in/abdullah-al-amin-2a8150197" target="_blank" rel="noreferrer">View LinkedIn <span>↗</span></a></div>
+      </div>
+      <aside class="profile-panel reveal"><div class="portrait-wrap"><img src="assets/images/Profile.jpg" alt="Abdullah Al Amin"></div><div class="profile-heading"><p>Dhaka, Bangladesh</p><h2>SaaS, Web, Mobile<br>&amp; AI Developer</h2></div><div class="status"><span></span> 100+ projects delivered</div></aside>
+    </section>
+
+    <section id="about" class="section section-shell reveal">
+      <div class="section-label">01 / About</div>
+      <div class="section-body about-body">
+        <h2>I look beyond what to build — to why it matters, where it breaks, and how it scales.</h2>
+        <div><p>At Techreion, I've delivered 100+ software projects for businesses and startups across web applications, mobile apps, AI-powered systems, SaaS platforms, CRM &amp; ERP solutions, and workflow automations.</p><p>Before writing code, I unpack the business logic, identify bottlenecks, and design for long-term impact — then turn that thinking into a practical product.</p></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-shell reveal">
+      <div class="section-label">02 / Capabilities</div>
+      <div class="section-body">
+        <h2>End-to-end systems, built for real-world use.</h2>
+        <div class="capability-grid">
+          <article><span>01</span><h3>SaaS &amp; web applications</h3><p>Scalable web products and high-performance systems for business operations.</p></article>
+          <article><span>02</span><h3>CRM &amp; ERP solutions</h3><p>Custom CRM and ERP platforms that manage customers, orders, inventory and more from one dashboard.</p></article>
+          <article><span>03</span><h3>Mobile &amp; automation</h3><p>Custom mobile applications and workflow automations that streamline manual, repetitive processes.</p></article>
+          <article><span>04</span><h3>AI-powered products</h3><p>AI application development and practical automation systems designed around real client needs.</p></article>
+        </div>
+
+        <div class="sub-heading"><h3>Technologies I use</h3></div>
+        <div class="tech-grid">
+          <div class="tech-card"><span class="tech-icon py">Py</span><span>Python</span></div>
+          <div class="tech-card"><span class="tech-icon js">JS</span><span>JavaScript</span></div>
+          <div class="tech-card">
+            <span class="tech-icon node"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.7 3 6.85v10.3L12 22.3l9-5.15V6.85L12 1.7zm0 1.73 6.9 3.95v.02L12 11.35 5.1 7.4v-.02L12 3.43zM4.5 8.6 11.25 12.5v7.85L4.5 16.4V8.6zm8.25 11.75V12.5L19.5 8.6v7.8l-6.75 3.95z"/></svg></span>
+            <span>Node.js</span>
+          </div>
+          <div class="tech-card">
+            <span class="tech-icon react"><svg viewBox="0 0 24 24"><g fill="none" stroke="#61dafb" stroke-width="1.4"><ellipse cx="12" cy="12" rx="10" ry="4.2"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(120 12 12)"/></g><circle cx="12" cy="12" r="1.8" fill="#61dafb"/></svg></span>
+            <span>React</span>
+          </div>
+          <div class="tech-card"><span class="tech-icon next">N</span><span>Next.js</span></div>
+          <div class="tech-card"><span class="tech-icon express">ex</span><span>Express.js</span></div>
+        </div>
+
+        <div class="sub-heading"><h3>Powerful features I build in</h3></div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div><h4>Dashboard &amp; analytics</h4><p>Real-time insights and beautiful dashboards.</p></article>
+          <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg></div><h4>Role-based access</h4><p>Secure authentication and user permissions.</p></article>
+          <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.6"/><circle cx="18" cy="6" r="2.6"/><circle cx="12" cy="18" r="2.6"/><path d="M8.2 7.4 10.5 16M15.8 7.4 13.5 16M8.6 6h6.8"/></svg></div><h4>Manage everything</h4><p>Customers, orders, inventory, products &amp; more.</p></article>
+          <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6M8 5l1.6-1.6a3.4 3.4 0 0 1 4.8 4.8L13 9M16 19l-1.6 1.6a3.4 3.4 0 0 1-4.8-4.8L11 15"/></svg></div><h4>API integration</h4><p>Seamless third-party and custom APIs.</p></article>
+          <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a4.5 4.5 0 0 1-1-8.9A5.5 5.5 0 0 1 16.9 8 4 4 0 0 1 17 16H7z"/><path d="M12 12v6M9.5 15.5 12 13l2.5 2.5"/></svg></div><h4>Cloud ready</h4><p>Deploy on your preferred cloud.</p></article>
+          <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></div><h4>Fast &amp; scalable</h4><p>High performance and future-ready.</p></article>
+        </div>
+
+        <div class="tools" aria-label="Core specialisms"><span>SaaS Development</span><span>AI Application Development</span><span>Web Application Development</span><span>Mobile Apps</span><span>CRM &amp; ERP</span><span>Automation</span></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-shell reveal">
+      <div class="section-label">03 / Experience</div>
+      <div class="section-body">
+        <h2>Building products with business context.</h2>
+        <div class="timeline">
+          <article><div><p class="work-number">Aug 2021 — Present</p><h3>Self-employed · Techreion</h3><p class="role">Web, mobile, AI &amp; automation development</p></div><p>Delivered 100+ projects, including scalable SaaS platforms, custom web and mobile applications, AI-powered solutions, automations, and CRM/ERP systems.</p></article>
+          <article><div><p class="work-number">Jun 2020 — Aug 2023</p><h3>Executive Assistant · Toy World Bangladesh</h3></div></article>
+          <article><div><p class="work-number">Nov 2019 — Mar 2020</p><h3>Field Supervisor · adcom bangladesh</h3></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section section-shell reveal">
+      <div class="section-label">04 / Selected work</div>
+      <div class="section-body">
+        <div class="work-heading"><h2>Products made to move a business forward.</h2><p>From new ventures to established workflows, I build solutions that are practical today and ready to grow.</p></div>
+        <div class="work-grid">
+          <article class="work-card featured"><div class="work-image image-one"><img src="assets/images/img-2.jpg" alt="Web application project preview"></div><p class="work-number">01 / SaaS &amp; Web</p><h3>Business-ready platforms</h3><p>Scalable applications designed to support real operations, users, and growth.</p></article>
+          <article class="work-card"><div class="work-image image-two"><img src="assets/images/img-1.jpg" alt="Mobile application project preview"></div><p class="work-number">02 / Mobile</p><h3>Custom mobile apps</h3><p>Purpose-built mobile experiences tailored to a client's customers and workflow.</p></article>
+          <article class="work-card concept"><div class="work-image"><span>AI</span></div><p class="work-number">03 / AI &amp; Automation</p><h3>Smarter workflows</h3><p>AI-powered solutions and automations that reduce manual work and improve efficiency.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-shell reveal">
+      <p class="eyebrow"><span></span> Have an opportunity or idea?</p>
+      <h2>Let's build something<br><em>that scales.</em></h2>
+      <div class="contact-actions"><a class="button button-primary" href="mailto:abd.alamin360@gmail.com">Email me <span>↗</span></a><a class="button button-outline" href="https://www.linkedin.com/in/abdullah-al-amin-2a8150197" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer class="section-shell"><span>© <span id="year"></span> Abdullah Al Amin</span><span>Built with intent.</span></footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+</file>
+
+<file path="assets/script.js">
+(() => {
+  const year = document.querySelector('#year');
+  if (year) year.textContent = new Date().getFullYear();
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('#site-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => { const open = nav.classList.toggle('open'); toggle.setAttribute('aria-expanded', String(open)); });
+    nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => { nav.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }));
+  }
+  const items = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { items.forEach((item) => item.classList.add('visible')); return; }
+  const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } }), { threshold: 0.12 });
+  items.forEach((item) => observer.observe(item));
+  // Safety net: full-page screenshot/PDF/print tools often render the page
+  // without a real scroll, so IntersectionObserver never fires for
+  // below-the-fold sections. Force everything visible shortly after load.
+  window.addEventListener('load', () => setTimeout(() => { items.forEach((item) => item.classList.add('visible')); observer.disconnect(); }, 1200));
+})();
+</file>
+
+<file path="assets/style.css">
+:root{
+  --bg:#05060c;
+  --bg-soft:#0b0e18;
+  --surface:rgba(255,255,255,.045);
+  --surface-hover:rgba(255,255,255,.075);
+  --line:rgba(255,255,255,.1);
+  --line-soft:rgba(255,255,255,.06);
+  --text:#f3f5fb;
+  --muted:#9aa1b8;
+  --muted-2:#6c7286;
+  --violet:#8b6bff;
+  --blue:#4f8bff;
+  --cyan:#33e0d6;
+  --pink:#ff5fa8;
+  --grad:linear-gradient(120deg,var(--blue),var(--violet) 52%,var(--pink));
+  --radius:22px;
+  --radius-sm:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Manrope,Arial,sans-serif;line-height:1.6;overflow-x:hidden}
+.section-shell{width:min(1160px,calc(100% - 48px));margin-inline:auto}
+::selection{background:var(--violet);color:#fff}
+
+/* background glows */
+.page-glow{position:fixed;z-index:-1;border-radius:50%;filter:blur(110px);pointer-events:none}
+.glow-one{width:46rem;height:46rem;background:radial-gradient(circle,rgba(79,139,255,.35),transparent 70%);top:-22rem;right:-18rem}
+.glow-two{width:40rem;height:40rem;background:radial-gradient(circle,rgba(139,107,255,.32),transparent 70%);left:-20rem;top:44rem}
+.glow-three{position:fixed;z-index:-1;width:34rem;height:34rem;border-radius:50%;filter:blur(110px);background:radial-gradient(circle,rgba(255,95,168,.22),transparent 70%);right:-14rem;bottom:-14rem;pointer-events:none}
+
+/* header */
+.site-header{width:min(1160px,calc(100% - 48px));height:92px;margin:auto;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:40}
+.site-header::after{content:"";position:absolute;left:0;right:0;top:100%;height:1px;background:var(--line-soft)}
+.header-fill{position:fixed;inset:0 0 auto 0;height:92px;z-index:30;backdrop-filter:blur(16px);background:rgba(5,6,12,.55);border-bottom:1px solid var(--line-soft);pointer-events:none}
+.brand{color:var(--text);display:flex;align-items:center;gap:11px;text-decoration:none;font-size:.94rem;letter-spacing:-.02em}
+.brand img{border-radius:11px;object-fit:cover;box-shadow:0 0 0 1px var(--line)}
+.brand b{font-weight:800}
+.site-header nav{display:flex;align-items:center;gap:27px}
+.site-header nav a{color:var(--muted);text-decoration:none;font-size:.88rem;font-weight:700;transition:color .2s}
+.site-header nav a:hover,.text-link:hover{color:#fff}
+.site-header .nav-contact{color:var(--bg);background:var(--grad);padding:10px 16px;border-radius:10px;display:flex;align-items:center;gap:6px}
+.site-header .nav-contact:hover{filter:brightness(1.08);color:var(--bg)}
+.site-header .nav-contact span{color:var(--bg)}
+.menu-toggle{display:none}
+
+/* hero */
+.hero{min-height:640px;display:grid;grid-template-columns:1.12fr .88fr;gap:6rem;align-items:center;padding-block:88px 76px;position:relative}
+.eyebrow,.section-label,.work-number{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;font-size:.69rem;color:var(--muted)}
+.eyebrow{margin:0 0 22px;display:inline-flex;align-items:center;padding:7px 13px 7px 10px;border:1px solid var(--line);border-radius:99px;background:var(--surface)}
+.eyebrow span{display:inline-block;width:7px;height:7px;margin-right:9px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
+h1,h2,h3,p{margin-top:0}
+h1{font-size:clamp(2.7rem,5vw,4.85rem);line-height:1.07;letter-spacing:-.055em;margin-bottom:27px;max-width:760px;font-weight:800}
+h1 em,h2 em{font-style:normal;font-weight:800;letter-spacing:-.05em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.intro{font-size:1.06rem;color:var(--muted);max-width:600px;line-height:1.85}
+.hero-actions,.contact-actions{display:flex;gap:18px;align-items:center;margin-top:38px;flex-wrap:wrap}
+.button{display:inline-flex;align-items:center;gap:14px;padding:14px 20px;text-decoration:none;font-size:.85rem;font-weight:800;border-radius:12px;transition:transform .2s,filter .2s,border-color .2s}
+.button-primary{color:#fff;background:var(--grad);box-shadow:0 12px 30px -12px rgba(139,107,255,.55)}
+.button-primary:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.button span{font-size:1.1rem}
+.text-link{font-weight:800;color:var(--text);text-decoration:none;font-size:.88rem}
+.text-link span{margin-left:5px;color:var(--cyan)}
+
+.profile-panel{border:1px solid var(--line);background:var(--surface);backdrop-filter:blur(18px);padding:16px;border-radius:var(--radius);position:relative}
+.profile-panel::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;background:var(--grad);opacity:.35;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.portrait-wrap{height:360px;border-radius:14px;overflow:hidden;background:#12162280}
+.portrait-wrap img{width:100%;height:100%;object-fit:cover;object-position:center 16%}
+.profile-heading{padding:22px 8px 12px}
+.profile-heading p{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;font-size:.65rem;color:var(--muted);margin-bottom:4px}
+.profile-heading h2{font-size:1.6rem;line-height:1.1;letter-spacing:-.05em;margin:0;font-weight:800}
+.status{padding:13px 8px 5px;font-size:.78rem;color:var(--muted);border-top:1px solid var(--line-soft);display:flex;align-items:center}
+.status span{width:7px;height:7px;display:inline-block;margin-right:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+
+/* sections */
+.section{display:grid;grid-template-columns:170px 1fr;gap:48px;padding-block:108px;border-top:1px solid var(--line-soft)}
+.section-label{padding-top:13px}
+.section-body h2,.contact h2{font-size:clamp(2rem,3.4vw,3.3rem);line-height:1.14;letter-spacing:-.05em;margin-bottom:32px;font-weight:800}
+.about-body{display:grid;grid-template-columns:1.1fr .9fr;gap:5rem}
+.about-body>h2{margin:0}
+.about-body p,.work-heading>p{color:var(--muted);font-size:.97rem;line-height:1.85}
+
+/* capability grid */
+.capability-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-soft);border:1px solid var(--line-soft);border-radius:var(--radius);overflow:hidden}
+.capability-grid article{min-height:210px;padding:26px 24px 22px;background:var(--bg-soft);transition:background .25s}
+.capability-grid article:hover{background:var(--surface-hover)}
+.capability-grid span{font-family:"DM Mono",monospace;font-size:.7rem;color:var(--cyan)}
+.capability-grid h3{font-size:1rem;letter-spacing:-.03em;margin:34px 0 9px;font-weight:800}
+.capability-grid p{font-size:.82rem;line-height:1.7;color:var(--muted);margin-bottom:0}
+
+/* sub-heading inside skills section */
+.sub-heading{display:flex;align-items:center;gap:14px;margin:56px 0 24px}
+.sub-heading h3{font-size:1.02rem;letter-spacing:-.02em;font-weight:800;margin:0;white-space:nowrap}
+.sub-heading::after{content:"";flex:1;height:1px;background:var(--line-soft)}
+
+/* tech stack */
+.tech-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.tech-card{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;padding:22px 12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);transition:transform .25s,border-color .25s,background .25s}
+.tech-card:hover{transform:translateY(-4px);border-color:rgba(139,107,255,.5);background:var(--surface-hover)}
+.tech-card span{font-size:.78rem;font-weight:700;color:var(--muted)}
+.tech-icon{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.82rem}
+.tech-icon svg{width:26px;height:26px}
+.tech-icon.py{background:linear-gradient(135deg,#3776ab,#ffd43b)}
+.tech-icon.js{background:#f7df1e;color:#111}
+.tech-icon.node{background:rgba(131,205,41,.14);color:#83cd29;border:1px solid rgba(131,205,41,.35)}
+.tech-icon.react{background:rgba(97,218,251,.12);border:1px solid rgba(97,218,251,.35)}
+.tech-icon.next{background:#fff;color:#000}
+.tech-icon.express{background:#111318;color:#fff;border:1px solid var(--line);font-style:italic;font-family:Georgia,serif}
+
+/* features */
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feature-card{padding:24px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);transition:transform .25s,border-color .25s}
+.feature-card:hover{transform:translateY(-4px);border-color:rgba(51,224,214,.4)}
+.feature-icon{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;background:var(--grad)}
+.feature-icon svg{width:20px;height:20px;stroke:#fff;fill:none}
+.feature-card h4{font-size:.95rem;letter-spacing:-.02em;margin:0 0 7px;font-weight:800}
+.feature-card p{font-size:.82rem;line-height:1.7;color:var(--muted);margin:0}
+
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.tools span{font:500 .72rem "DM Mono",monospace;border:1px solid var(--line);padding:7px 10px;border-radius:6px;color:#cdd3dd;background:var(--surface)}
+
+/* timeline */
+.timeline{border-top:1px solid var(--line-soft)}
+.timeline article{display:grid;grid-template-columns:1fr .85fr;gap:3rem;padding:26px 0;border-bottom:1px solid var(--line-soft)}
+.timeline h3{margin:7px 0 2px;font-size:1.1rem;letter-spacing:-.04em;font-weight:800}
+.timeline .work-number{margin:0}
+.timeline .role,.timeline>article>p{margin:0;color:var(--muted);font-size:.84rem;line-height:1.75}
+
+/* work */
+.work-heading{display:flex;align-items:end;justify-content:space-between;gap:3rem}
+.work-heading h2{max-width:540px}
+.work-heading>p{max-width:290px;font-size:.85rem}
+.work-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:20px;margin-top:38px}
+.work-card{padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--surface);transition:transform .3s,border-color .3s}
+.work-card:hover{transform:translateY(-6px);border-color:rgba(139,107,255,.5)}
+.work-image{height:195px;overflow:hidden;border-radius:10px;background:linear-gradient(135deg,#1c2440,#101526);display:flex;align-items:center;justify-content:center}
+.work-card.featured .work-image{height:270px}
+.work-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.work-card:hover img{transform:scale(1.06)}
+.work-image span{font-size:3rem;font-weight:800;letter-spacing:-.1em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.work-card h3{font-size:1.05rem;letter-spacing:-.04em;margin:8px 0 5px;font-weight:800}
+.work-number{margin:18px 0 0;color:var(--blue);font-size:.62rem}
+
+/* contact */
+.contact{padding-block:130px 110px;border-top:1px solid var(--line-soft);position:relative}
+.contact h2{font-size:clamp(2.8rem,5.8vw,5.2rem);margin-bottom:0}
+.button-outline{border:1px solid var(--line);color:var(--text);background:var(--surface)}
+.button-outline:hover{border-color:var(--cyan);transform:translateY(-2px)}
+
+footer{border-top:1px solid var(--line-soft);padding-block:25px 40px;display:flex;justify-content:space-between;color:var(--muted-2);font:400 .68rem "DM Mono",monospace;text-transform:uppercase;letter-spacing:.06em}
+
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
+.reveal.visible{opacity:1;transform:none}
+.skip-link{position:absolute;left:-999px}
+.skip-link:focus{left:15px;top:15px;background:white;color:black;padding:10px;z-index:10}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+
+/* ===== tablet ===== */
+@media (max-width:1024px){
+  .capability-grid{grid-template-columns:repeat(2,1fr)}
+  .tech-grid{grid-template-columns:repeat(3,1fr)}
+  .feature-grid{grid-template-columns:repeat(2,1fr)}
+  .work-grid{grid-template-columns:1fr 1fr;grid-template-areas:"a a" "b c"}
+  .work-card.featured{grid-area:a}
+  .hero{gap:3.5rem}
+}
+
+/* ===== mobile ===== */
+@media (max-width:800px){
+  .section-shell,.site-header{width:min(100% - 32px,1160px)}
+  .site-header,.header-fill{height:75px}
+  .menu-toggle{display:flex;width:38px;height:38px;border:1px solid var(--line);background:var(--surface);border-radius:9px;align-items:center;justify-content:center;flex-direction:column;gap:5px;z-index:41}
+  .menu-toggle i{display:block;width:16px;height:1px;background:var(--text)}
+  .site-header nav{display:none;position:absolute;right:0;top:57px;background:rgba(11,14,24,.92);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:14px;padding:15px;width:200px;flex-direction:column;align-items:stretch;gap:3px;z-index:41}
+  .site-header nav.open{display:flex}
+  .site-header nav a{padding:10px}
+  .site-header .nav-contact{text-align:center;justify-content:center;margin-top:5px}
+  .hero{min-height:0;grid-template-columns:1fr;gap:45px;padding-block:44px 60px}
+  .hero-copy{order:1}
+  .profile-panel{max-width:360px;justify-self:center;order:2;width:100%}
+  .portrait-wrap{height:300px}
+  h1{font-size:clamp(2.6rem,11vw,3.6rem)}
+  .section{grid-template-columns:1fr;gap:19px;padding-block:66px}
+  .section-label{padding:0}
+  .about-body{grid-template-columns:1fr;gap:25px}
+  .capability-grid{grid-template-columns:1fr}
+  .capability-grid article{min-height:0;padding:22px 20px}
+  .capability-grid h3{margin:18px 0 6px}
+  .sub-heading{margin:44px 0 18px}
+  .sub-heading h3{font-size:.92rem}
+  .tech-grid{grid-template-columns:repeat(3,1fr);gap:10px}
+  .tech-card{padding:16px 8px}
+  .feature-grid{grid-template-columns:1fr;gap:12px}
+  .work-heading{display:block}
+  .work-heading>p{max-width:500px;margin-top:10px}
+  .work-grid{grid-template-columns:1fr;grid-template-areas:none;gap:16px}
+  .work-card.featured .work-image,.work-image{height:220px}
+  .contact{padding-block:80px 70px}
+  footer{padding-block:22px 32px;flex-direction:column;gap:8px}
+  .reveal{transition-duration:.45s}
+}
+
+@media (max-width:480px){
+  .tech-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .button,.work-card,.work-image img,.tech-card,.feature-card{transition:none}
+}
+
+@media print{
+  .reveal{opacity:1!important;transform:none!important}
+  .header-fill,.page-glow,.glow-three{display:none}
+}
+</file>
+
+</files>
