@@ -1,37 +1,40 @@
 (() => {
-  // Set current year
+  // Set current year dynamically
   const year = document.querySelector('#year');
   if (year) year.textContent = new Date().getFullYear();
 
-  // Mobile navigation handling
+  // Robust Mobile Navigation
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#site-nav');
 
   if (toggle && nav) {
     toggle.addEventListener('click', (e) => {
       e.stopPropagation();
-      const open = nav.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', String(open));
+      const isOpen = nav.classList.toggle('open');
+      toggle.classList.toggle('is-active', isOpen);
+      toggle.setAttribute('aria-expanded', String(isOpen));
     });
 
-    // Close when clicking nav links
+    // Close when tapping any link
     nav.querySelectorAll('a').forEach((link) => {
       link.addEventListener('click', () => {
         nav.classList.remove('open');
+        toggle.classList.remove('is-active');
         toggle.setAttribute('aria-expanded', 'false');
       });
     });
 
-    // Close menu when clicking outside
+    // Close when tapping outside the open menu
     document.addEventListener('click', (e) => {
       if (!nav.contains(e.target) && !toggle.contains(e.target) && nav.classList.contains('open')) {
         nav.classList.remove('open');
+        toggle.classList.remove('is-active');
         toggle.setAttribute('aria-expanded', 'false');
       }
     });
   }
 
-  // Scroll reveal animation with fallback
+  // Smooth Reveal Animations with fallback
   const items = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     items.forEach((item) => item.classList.add('visible'));
@@ -45,14 +48,14 @@
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
 
   items.forEach((item) => observer.observe(item));
 
-  // Fallback safety to ensure content is visible even if scroll observer stalls
+  // Safety net ensuring visible content even on slow render
   window.addEventListener('load', () => {
     setTimeout(() => {
       items.forEach((item) => item.classList.add('visible'));
-    }, 1000);
+    }, 800);
   });
 })();

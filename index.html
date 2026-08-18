@@ -13,9 +13,8 @@
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="header-fill"></div>
 
-  <!-- Contained glows to eliminate mobile horizontal scroll -->
+  <!-- Fixed contained glow effects -->
   <div class="page-glow-container" aria-hidden="true">
     <div class="page-glow glow-one"></div>
     <div class="page-glow glow-two"></div>
@@ -23,21 +22,23 @@
   </div>
 
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Abdullah Al Amin home">
-      <img src="assets/images/Logo.jpg" alt="" width="38" height="38">
-      <span>Abdullah <b>Al Amin</b></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-    <nav id="site-nav" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#skills">Capabilities</a>
-      <a href="#experience">Experience</a>
-      <a href="#work">Work</a>
-      <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
-    </nav>
+    <div class="section-shell header-inner">
+      <a class="brand" href="#top" aria-label="Abdullah Al Amin home">
+        <img src="assets/images/Logo.jpg" alt="Logo" width="36" height="36">
+        <span>Abdullah <b>Al Amin</b></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Capabilities</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
 
   <main id="main-content">
